@@ -56,7 +56,7 @@ def get_suggestions(config, processed_members, required_trophies):
             # demote them.
             # if we're above the minimum clan size, recommend kicking
             # poorly participating member.
-            elif member.score < config['score']['threshold_kick'] and index <= len(members_by_score) - config['score']['min_clan_size']:
+            elif member.score < config['score']['threshold_kick_score'] and len(members_by_score) > config['score']['min_clan_size']:
                 suggestion = config['strings']['suggestionKickScore'].format(name=member.name, score=member.score)
                 logger.debug(suggestion)
                 suggestions.append(suggestion)
