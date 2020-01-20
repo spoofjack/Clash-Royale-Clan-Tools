@@ -6,7 +6,8 @@ This is a tool for creating a dashboard for clan participation in ClashRoyale.
 See https://developer.clashroyale.com to sign up for a developer account and
 create an API key to use with this.
 
-For an example dashboard created for the clan Agrassar (#LP98YUCV), see: https://spoofjack.github.io/Abuzement-Park-ClanSite/
+For an example dashboard created for the clan Abuzement Park (#LP98YUCV)
+see: https://spoofjack.github.io/Abuzement-Park-ClanSite/
 
 This tool is a static site generator -- it generates static HTML, JavaScript,
 and CSS used to render the dashboard. If you wish to use this, you should set
