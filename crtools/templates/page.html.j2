@@ -232,7 +232,7 @@
                 var leaderboardFilter = new LeaderboardFilter();
                 var dialogHandler = new DialogHandler();
 
-                new Tablesort(memberTable);
+				new Tablesort(memberTable, { descending: true });
 
                 refreshInterval = setInterval(refreshAfterHalfHour, 3000)
             }
