@@ -227,7 +227,7 @@ class MemberFactory:
 
     def calc_member_status(self, member_score, no_promote):
         # either 'good', 'ok', 'bad', or 'normal'
-        if member_score < self.config['score']['threshold_kick']:
+        if member_score < 0:
             return 'bad'
 
         if member_score >= self.config['score']['threshold_promote'] and not no_promote:
